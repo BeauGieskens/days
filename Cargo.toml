@@ -1,0 +1,11 @@
+[package]
+name = "days"
+version = "0.1.0"
+edition = "2021"
+authors = ["Beau Gieskens <beau.gieskens@gmail.com>"]
+description = "Command-line utility to calculate numbers of days between dates."
+license = "Unlicense"
+
+[dependencies]
+chrono = "0.4"
+clap = {version = "4", features = ["derive"]}
